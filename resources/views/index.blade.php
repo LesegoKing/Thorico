@@ -21,7 +21,7 @@
                                             Thorico Designs®
                                         </h2>
                                         <br>
-                                        <a href="/shop" class="btn animated btn-outline-dark">Click For More</a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                                             Thorico Designs®️
                                         </h2>
                                         <br>
-                                        <a href="/shop" class="btn animated btn-outline-dark">Click For More</a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -52,11 +52,11 @@
                     <!-- swiper-slide end-->
                 </div>
             </div>
-
             <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination">
+            </div>
             <!-- swiper navigation -->
-            <div class=" ">
+            <div class="swiper-pagination">
                 <div class="swiper-button-prev">
                     <i class="ion-chevron-left"></i>
                 </div>
@@ -67,8 +67,8 @@
         </div>
     </section>
     <!-- Hero Slider End -->
-<!-- bestseller-product-section start -->
-<div class="bestseller-product-section section-padding-top">
+    <!-- bestseller-product-section start -->
+    <div class="bestseller-product-section section-padding-top">
         <div class="container">
             <div class="row mb-n5 bestseller-carousel swiper-arrow bestseller-arrow">
                 <div class="col-12 col-lg-4 col-xl-3 mb-5 position-relative">
@@ -115,7 +115,6 @@
                                     </div>
                                 </div>
                                 <!-- product list end -->
-
                             </div>
                             <!-- swiper-slide end -->
                             <div class="swiper-slide">
@@ -266,13 +265,10 @@
                         <div class="banner-content banner-position-top-left">
                             <span class="banner-sub-title text-black">HandBags</span>
                             <br>
-                            <h3 class="banner-title">For Sale</h3>
-                            <a href="shop-grid-left-sidebar.html" class="btn animated btn-outline-dark">More</a>
                         </div>
                         <!-- banner-content end -->
                     </div>
                 </div>
-
                 <div class="col-lg-4 mb-4">
                     <div class="banner">
                         <!-- thumb-nail start -->
@@ -282,8 +278,7 @@
                         <!-- thumb-nail end -->
                         <div class="banner-content banner-position-bottom-left">
                             <span class="banner-sub-title" style="color:Black">Couches</span>
-                            <h3 class="banner-title">For Sale</h3>
-                            <a href="shop-grid-left-sidebar.html" class="btn animated btn-outline-dark">More</a>
+                            
                         </div>
                         <!-- banner-content end -->
                     </div>

@@ -78,7 +78,7 @@ Route::post('/send-message',[ContactController::class,'sendEmail'])->name('conta
 Route::get('/shop', [ProductsController::class, 'categories']);
 Route::get('/products', [ProductsController::class, 'products']);
 Route::get('/{sub_category_id}/products', [ProductsController::class, 'subCategoryProducts']);
-Route::get('/{product_id}/details', [ProductsController::class, 'productsDetails']);
+Route::get('/{product_id}/contact-us', [ProductsController::class, 'productsDetails']);
 
 /* Photo */
 

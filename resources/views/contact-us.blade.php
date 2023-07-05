@@ -1,14 +1,14 @@
 @extends('layouts.top-layout')
 @section('content')
 
-<nav class="breadcrumb-section breadcrumb-bg1">
+<nav class="breadcrumb-section breadcrumb-contact">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="bread-crumb-title text-black">Contact</h2>
+                    <h2 class="bread-crumb-title">Contact Us</h2>
                     <ol class="breadcrumb bg-transparent m-0 p-0 justify-content-center align-items-center">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active text-white" aria-current="page">Contact</li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">Contact Us</li>
                     </ol>
                 </div>
             </div>
@@ -49,10 +49,7 @@
                             <h4 class="title"><span class=" ion-ios-telephone"></span> Phone</h4>
                             <ul>
                                 <li>
-                                    <a class="phone-number" href="tel:+12345678987">+12345 678 987</a>
-                                </li>
-                                <li>
-                                    <a class="phone-number" href="tel:+98745612321">+98745 612 321</a>
+                                <a class="phone-number" href="tel:071 939 5407">071 939 5407</a>
                                 </li>
                             </ul>
                         </div>

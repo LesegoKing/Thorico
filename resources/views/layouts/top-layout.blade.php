@@ -180,7 +180,7 @@
                             <ul class="main-menu nav align-items-center @@justifyCenter">
                                 <li class="main-menu-item"><a class="hover" href="/">Home</a>
                                 </li>
-                                <li class="main-menu-item position-static text-brown"><a href="/shop" class="hover">Shop</a>
+                                <li class="main-menu-item position-static text-brown"><a href="#" class="hover">Shop</a>
                                 <!-- mega menu start -->
                                @include('layouts.menu')
                                 

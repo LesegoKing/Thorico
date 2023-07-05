@@ -19,6 +19,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Bedroom',
             'friendly_name' => 'bedroom',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -26,6 +27,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Sofas',
             'friendly_name' => 'sofas',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -33,6 +35,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Tables',
             'friendly_name' => 'tables',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -40,6 +43,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Chairs',
             'friendly_name' => 'chairs',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -47,6 +51,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Outdoor Couches',
             'friendly_name' => 'outdoor-couches',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -54,6 +59,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Outdoor Tables',
             'friendly_name' => 'outdoor-tables',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -61,6 +67,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Outdoor Chairs',
             'friendly_name' => 'outdoor-chairs',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -68,6 +75,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Laptop Bags',
             'friendly_name' => 'laptop-bags',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -75,6 +83,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Side Bags',
             'friendly_name' => 'side-bags',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
@@ -82,6 +91,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Belts',
             'friendly_name' => 'belts',
             'active' => 1,
+            'img_path' => 'chairs.jpg',
         ]);
     }
 }

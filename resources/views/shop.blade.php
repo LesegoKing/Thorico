@@ -3,7 +3,7 @@
 
 <!-- main content start -->
 <!-- bread crumb section start -->
-<nav class="breadcrumb-section breadcrumb-bg1">
+<nav class="breadcrumb-section breadcrumb-bg1" style="background-image: url({{ asset('/images/bread-crumb/') . "/" . $categoryDetails->img_path }});">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -42,16 +42,13 @@
                         <div class="col-sm-6 col-md-4 col-lg-3 mb-5">
                             <div class="product-card">
                                 <a href="#" class="product-thumb">
-                                    <img height="235px" width="" src="{{ asset('/images/products') . "/" . $product->img_path }}" alt="image_not_found">
+                                    <img height="235px" width="" src="{{ asset('/images/products') . "/" . $product->img_path}}" alt="image_not_found">
                                 </a>
                                 <!-- thumb end -->
                                 <div class="product-content">
                                     <h4><a href="/{{ $product->id }}/details" class="product-title">{{ $product->name }}</a></h4>
-                                    <div class="product-group">
-                                        <h5 class="product-price"><span class="new-price">R{{ $product->price }}</span></h5>
-                                    </div>
                                 </div>
-                                <!-- actions  -->
+
                                 {{--<ul class="actions actions-verticale">
                                     <li class="action whish-list">
                                         <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>

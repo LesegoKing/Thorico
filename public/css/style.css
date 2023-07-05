@@ -2034,6 +2034,13 @@ svg {
   background-size: cover;
 }
 
+.breadcrumb-contact {
+  background-image: url(../images/bread-crumb/benjamin-dada-EDZTb2SQ6j0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
 .bread-crumb-title {
   font-weight: 700;
   font-size: 2.4286em;

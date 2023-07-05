@@ -16,7 +16,7 @@ class ProductsController extends Controller
         ->leftJoin('sub_categories', 'sub_categories.id', '=', 'products.sub_category_id')
         ->select('sub_categories.name AS sub_cat', 'products.*')
         ->where('sub_categories.friendly_name', $sub_category_id)
-        ->get();
+        ->get('');
 
         return view('shop',['categories' => $categories, 'products' => $products, 'categoryDetails' => $categoryDetails]);
     }
