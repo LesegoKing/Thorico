@@ -1,7 +1,7 @@
 @extends('layouts.top-layout')
 @section('content')
 
-<nav class="breadcrumb-section breadcrumb-contact">
+<nav class="breadcrumb-section" style="background-image: url({{ asset('../images/bread-crumb/contact-us.jpg')}}); background-repeat: no-repeat; background-position: center top; background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col-12">

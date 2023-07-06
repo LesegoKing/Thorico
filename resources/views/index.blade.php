@@ -8,7 +8,7 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <!-- swiper-slide start -->
-                <div class="hero-slide-item slider-height2 swiper-slide slide-cover1">
+                <div class="hero-slide-item slider-height2 swiper-slide" style="background-image: url({{ asset('../images/slider/slide1.jpg')}}); background-repeat: no-repeat; background-size: cover; background-position: 0% center;">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">

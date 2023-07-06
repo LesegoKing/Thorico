@@ -1625,12 +1625,7 @@ svg {
   background-position: 0% center;
 }
 
-.slide-cover1 {
-  background-image: url("../images/slider/slide1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% center;
-}
+
 
 .slide-cover2 {
   background-image: url("../images/slider/slide2.jpg");
@@ -2034,7 +2029,7 @@ svg {
   background-size: cover;
 }
 
-.breadcrumb-contact {
+.breadcrumb-contact{
   background-image: url(../images/bread-crumb/contact-us.jpg);
   background-repeat: no-repeat;
   background-position: center top;
