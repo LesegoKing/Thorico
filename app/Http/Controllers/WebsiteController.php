@@ -25,10 +25,4 @@ class WebsiteController extends Controller
         $categories = (new Category())->subcategries();
         return view('faq',['categories' => $categories]);
     }
-
-    public function contactUs()
-    {
-        $categories = (new Category())->subcategries();
-        return view('contact-us',['categories' => $categories]);
-    }
 }
