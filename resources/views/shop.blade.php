@@ -3,7 +3,7 @@
 
 <!-- main content start -->
 <!-- bread crumb section start -->
-<nav class="breadcrumb-section breadcrumb-bg1" style="background-image: url({{ asset('/images/bread-crumb/') . "/" . $categoryDetails->img_path }});">
+<nav class="breadcrumb-section breadcrumb-bg1" style="padding: 105px 0; background-repeat: no-repeat; background-position: center top; background-size: cover; background-image: url({{ asset('/images/bread-crumb/') . "/" . $categoryDetails->img_path }}); ">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -50,7 +50,7 @@
                                 </div>
 
                                 {{--<ul class="actions actions-verticale">
-                                    <li class="action whish-list">
+                                    <li class=" action whish-list">
                                         <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
                                     </li>
                                     <li class="action quick-view">

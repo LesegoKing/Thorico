@@ -30,7 +30,8 @@
                         <div class="address-list">
                             <h4 class="title"><span class="ion-ios-home"></span>Address</h4>
                             <p>
-                            Olympus Dr, Pretoria, 0081
+                            Olympus Dr, Pretoria, 0081<br>
+                            <b>Workshop Visits By Appointment</b>
                             </p>
                         </div>
                         <!-- address-list end -->

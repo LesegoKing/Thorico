@@ -146,7 +146,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'images/tables/table.jpg',
+            'img_path' => 'table.jpg',
         ]);
 
         //Chairs
@@ -268,6 +268,14 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
+            'img_path' => 'laptopbag.png',
+        ]);
+
+        DB::table('products')->insert([
+            'sub_category_id' => 8, //laptop-bags
+            'name' => 'Contact For More Details',
+            'desc' => 'Table two',
+            'price' => 0.00,
             'img_path' => '',
         ]);
 
@@ -286,7 +294,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => '',
+            'img_path' => 'sidebag.png',
         ]);
 
         //Belts

@@ -1626,14 +1626,14 @@ svg {
 }
 
 .slide-cover1 {
-  background-image: url("../images/slider/jpg_20230420_200755_0000.jpg");
+  background-image: url("../images/slider/slide1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% center;
 }
 
 .slide-cover2 {
-  background-image: url("../images/slider/jpg_20230419_204322_0000.jpg");
+  background-image: url("../images/slider/slide2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40% center;
@@ -2035,7 +2035,7 @@ svg {
 }
 
 .breadcrumb-contact {
-  background-image: url(../images/bread-crumb/benjamin-dada-EDZTb2SQ6j0-unsplash.jpg);
+  background-image: url(../images/bread-crumb/contact-us.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;

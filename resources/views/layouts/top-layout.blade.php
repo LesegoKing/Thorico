@@ -37,69 +37,12 @@
                     <li class="main-menu-item">
                         <a class="" href="/" >Home</a>
                     </li>
-                        <li>
-                            <a href="#">Shop</a>
-
-                            <!-- shop mega menu -->
-
-                            <ul>
-                                <li>
-                                    <a href="#"> Indoor Furniture</a>
-                                    <ul>
-                                        <li><a href="shop-grid-3-column.html">
-                                            Bedroom
-                                            </a>
-                                        </li>
-                                        <li><a href="shop-grid-4-column.html">
-                                            Sofas
-                                            </a>
-                                        </li>
-                                        <li><a href="shop-grid-left-sidebar.html">
-                                            Tables    
-                                            </a>
-                                        </li>
-                                        <li><a href="shop-grid-right-sidebar.html">
-                                            Chairs
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Outdoor Furniture</a>
-                                    <ul>
-                                        <li><a href="shop-grid-list.html">
-                                            Outdoor Couches
-                                            </a></li>
-                                        <li><a href="shop-grid-list-left-sidebar.html">
-                                            Outdoor Table
-                                            </a></li>
-                                        <li><a href="shop-grid-list-right-sidebar.html">
-                                            Outdoor Chairs
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Leather Accessories</a>
-                                    <ul>
-                                        <li><a href="single-product.html">
-                                            Laptop Bags
-                                            </a>
-                                        </li>
-                                        <li><a href="single-product-configurable.html">
-                                            Belts
-                                            </a>
-                                        </li>
-                                        <li><a href="single-product-affiliate.html">
-                                            Side Bags
-                                            </a>
-                                        </li>
-                                        
-                                    </ul>
-                                </li>
-                            </ul>
-                            <!-- shop mega menu end -->
-                        </li>
+                    <li>
+                        <a href="#">Shop</a>
+                        <!-- shop mega menu -->
+                        @include('layouts.mobile')
+                        <!-- shop mega menu end -->
+                    </li>
                     <!-- <li>
                         <a href="/about">About</a>
                     </li>
@@ -183,10 +126,8 @@
                                 <li class="main-menu-item position-static text-brown"><a href="#" class="hover">Shop</a>
                                 <!-- mega menu start -->
                                @include('layouts.menu')
-                                
-                                    <!-- sub-mega-menu end 
                                 </li>
-                                <li class="main-menu-item  position-static"><a href="/about" class="hover">About</a>
+                                <!-- <li class="main-menu-item  position-static"><a href="/about" class="hover">About</a>
                                 </li>
                                 <li class="main-menu-item  position-static"><a href="#" class="hover">Pages</a>
                                 </li> -->
