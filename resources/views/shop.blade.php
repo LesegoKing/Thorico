@@ -46,7 +46,8 @@
                                 </a>
                                 <!-- thumb end -->
                                 <div class="product-content">
-                                    <h4><a href="/{{ $product->id }}/details" class="product-title">{{ $product->name }}</a></h4>
+{{--                                    <h4><a href="/{{ $product->id }}/details" class="product-title">{{ $product->name }}</a></h4>--}}
+                                    <h4><a href="/contact-us" class="product-title">{{ $product->name }}</a></h4>
                                 </div>
 
                                 {{--<ul class="actions actions-verticale">
