@@ -21,7 +21,7 @@
                                         Thorico Designs®
                                     </h2>
                                     <br>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                                         Thorico Designs®
                                     </h2>
                                     <br>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                                     <!--<div class="product-content">
                                         <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
                                         <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>                                                           
+                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
                                         </div>
                                         <ul class="actions actions-verticale">
                                         <li class="action whish-list">
@@ -124,7 +124,7 @@
                                     <!--<div class="product-content">
                                         <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
                                         <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>                                                           
+                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
                                         </div>
                                         <ul class="actions actions-verticale">
                                         <li class="action whish-list">
@@ -153,39 +153,9 @@
                                     <!--<div class="product-content">
                                         <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
                                         <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>                                                           
+                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
                                         </div>
-                                        
-                                        <ul class="actions actions-verticale">
-                                        <li class="action whish-list">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
-                                            </li>
-                                            <li class="action quick-view">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal"><i class="ion-ios-eye-outline"></i></button>
-                                            </li>
-                                            <li class="action compare">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-compare"><i class="ion-android-sync"></i></button>
-                                            </li>
-                                        </ul>
-                                    </div> -->               
-                                </div>
-                            </div>
-                            <!-- product list end -->
-                        </div>
-                        <!-- swiper-slide end -->
-                        <div class="swiper-slide">
-                            <div class="product-list">
-                                <div class="product-card">
-                                    <a href="#" class="product-thumb">
-                                        <img width="700" height="320" src="{{asset('/images/products/table1.jpg')}}" alt="image_not_found">
-                                    </a>
-                                    <!-- thumb end -->
-                                    <!--<div class="product-content">
-                                        <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
-                                        <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>                                                           
-                                        </div>
-                                        
+
                                         <ul class="actions actions-verticale">
                                         <li class="action whish-list">
                                                 <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
@@ -207,16 +177,46 @@
                             <div class="product-list">
                                 <div class="product-card">
                                     <a href="#" class="product-thumb">
-                                        
+                                        <img width="700" height="320" src="{{asset('/images/products/table1.jpg')}}" alt="image_not_found">
+                                    </a>
+                                    <!-- thumb end -->
+                                    <!--<div class="product-content">
+                                        <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
+                                        <div class="product-group">
+                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
+                                        </div>
+
+                                        <ul class="actions actions-verticale">
+                                        <li class="action whish-list">
+                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
+                                            </li>
+                                            <li class="action quick-view">
+                                                <button data-bs-toggle="modal" data-bs-target="#product-modal"><i class="ion-ios-eye-outline"></i></button>
+                                            </li>
+                                            <li class="action compare">
+                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-compare"><i class="ion-android-sync"></i></button>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!-- product list end -->
+                        </div>
+                        <!-- swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="product-list">
+                                <div class="product-card">
+                                    <a href="#" class="product-thumb">
+
                                         <img width="700" height="320" src="{{asset('/images/products/couch3.jpg')}}" alt="image_not_found">
                                     </a>
                                         <!-- thumb end -->
                                     <!--<div class="product-content">
                                         <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
                                         <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>                                                           
+                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
                                         </div>
-                                        
+
                                         <ul class="actions actions-verticale">
                                         <li class="action whish-list">
                                                 <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
@@ -254,7 +254,7 @@
                     <div class="banner-content banner-position-top-left">
                         <span class="banner-sub-title text-black">HandBags</span>
                         <br>
-                        
+
                         <a href="#" class="btn animated btn-outline-dark">Purchase Now</a>
                     </div>
                     <!-- banner-content end -->
@@ -270,7 +270,7 @@
                     <!-- thumb-nail end -->
                     <div class="banner-content banner-position-bottom-left">
                         <span class="banner-sub-title" style="color:Black">Couches</span>
-                        
+
                         <a href="#" class="btn animated btn-outline-dark">Purchase Now</a>
                     </div>
                     <!-- banner-content end -->
@@ -434,7 +434,7 @@
                 <div class="col-4">
                     <div class="service">
                         <div class="single-thumb mb-4">
-                            <img height="200" width="250" src="{{asset('/images/about/IMG_9465.jpg')}}" alt="single-thumb-naile">
+                            <img height="200" width="250" src="{{asset('/images/about/IMG_9465.JPG')}}" alt="single-thumb-naile">
                         </div>
                     <div class="single-service">
                         <h3 class="service-title text-capitalize">Miss Lesedi Mildred </h3>
