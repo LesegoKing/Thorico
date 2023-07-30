@@ -83,15 +83,24 @@ class subCategorySeeder extends Seeder
             'name' => 'Side Bags',
             'friendly_name' => 'side-bags',
             'active' => 1,
-            'img_path' => 'side-bag.jpg',
+            'img_path' => 'test.jpg',
         ]);
 
         DB::table('sub_categories')->insert([
             'category_id' => 3,
-            'name' => 'Belts',
-            'friendly_name' => 'belts',
+            'name' => 'Purses & Wallets',
+            'friendly_name' => 'Purses & Wallets',
             'active' => 1,
-            'img_path' => 'belts.jpg',
+            'img_path' => 'pw.jpg',
         ]);
+
+        DB::table('sub_categories')->insert([
+            'category_id' => 3,
+            'name' => 'Traveling Bags',
+            'friendly_name' => 'traveling-bags',
+            'active' => 1,
+            'img_path' => 'travel bag.jpg',
+        ]);
+
     }
 }

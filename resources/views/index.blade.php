@@ -74,7 +74,7 @@
                 <section class="section-title bestseller text-start">
                     <h3 class="title">Our Products
                     </h3>
-                    <p class="text-brown">Have a look through our Home Decor category.</p>
+                    <p class="text-brown">Have A Look.</p>
                 </section>
                 <!-- If we need navigation buttons -->
                 <div class="featured-product swiper-button-prev"></div>
@@ -89,7 +89,7 @@
                             <div class="product-list">
                                 <div class="product-card">
                                     <a href="#" class="product-thumb">
-                                        <img width="700" height="320" src="{{asset('/images/products/couch1.jpg')}}" alt="image_not_found">
+                                        <img width="700" height="320" src="{{asset('/images/products/bag.jpg')}}" alt="image_not_found">
                                     </a>
                                     <!-- thumb end -->
                                     <!--<div class="product-content">
@@ -255,7 +255,7 @@
                         <span class="banner-sub-title text-black">HandBags</span>
                         <br>
 
-                        <a href="#" class="btn animated btn-outline-dark">Purchase Now</a>
+                        <a href="/contact-us" class="btn animated btn-outline-dark">Enquire Now</a>
                     </div>
                     <!-- banner-content end -->
                 </div>
@@ -271,7 +271,7 @@
                     <div class="banner-content banner-position-bottom-left">
                         <span class="banner-sub-title" style="color:Black">Couches</span>
 
-                        <a href="#" class="btn animated btn-outline-dark">Purchase Now</a>
+                        <a href="/contact-us" class="btn animated btn-outline-dark">Enquire Now</a>
                     </div>
                     <!-- banner-content end -->
                 </div>
@@ -349,10 +349,10 @@
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="categories">
                     <a href="#" class="thumb-nail">
-                        <img height="190" width="450" src="{{asset('/images/categoris/debagni-sarkhel-nhrhxaDTV3Q-unsplash.jpg')}}" alt="image_not_found">
+                        <img height="190" width="450" src="{{asset('/images/categoris/pw.jpg')}}" alt="image_not_found">
                     </a>
                     <h3 class="categories-title text-brown">
-                        Belts
+                    Purses & Wallets
                     </h3>
                 </div>
             </div>
@@ -361,21 +361,32 @@
     </div>
 </div>
 <!-- categries section end -->
-<section class="static-info-section section-padding-top">
+<section class="static-info-section section-padding-top pb-5">
     <div class="container text-center">
         <div class="static_info">
             <div class="row justify-content-around">
-                <!-- <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="box_info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                        </svg>
+                        <div class="txt_info">
+                            <h2 class="title">Order/Purchase Process</h2>
+                            <p> To make an order or purchase a product you love from our beautiful range of designs; take a screenshot or item description and enquire on the following lines for the success of your order:<br>Email address: sales@thorico.co.za or WhatsApp: 071 939 5407</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
                     <div class="box_info">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
                             <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
                         </svg>
                         <div class="txt_info">
-                            <h2 class="title">Fast & Free Shipping</h2>
-                            <p> Every single order ships for free. No minimum, No tiers, No fine print whatsoever.</p>
+                            <h2 class="title">Delivery Methods & Options</h2>
+                            <p>We deliver for FREE to our customers within 15-30km range of our warehouse, located in Pretoria.<br>Delivery cost for our clients outside the 15-39km range from our warehouse will be billed.<br>Or, clients can collect from our warehouse.</p>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <div class="col-4">
                     <div class="box_info">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
@@ -396,56 +407,6 @@
                             <h2 class="title">Customisation</h2>
                             <p>We ensure to design furniture, bags and accessories that tell a story - that try to get you with custom-made designed items that consist of premium and durable materials of your choice.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="service-section section-padding-bottom section-padding-top">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title text-center">
-                    <div class="title">Meet Our Team</div>
-                </div>
-            </div>
-        </div>
-        <div class="container text-center">
-            <div class="row justify-content-evenly">
-                <div class="col-4">
-                    <div class="service">
-                        <div class="single-thumb mb-4">
-                            <img src="{{asset('/images/about/IMG-20230517-WA0014.jpg')}}" alt="single-thumb-naile">
-                        </div>
-                        <div class="single-service">
-                            <h3 class="service-title text-capitalize">Ms. LF Mothapa</h3>
-                            <h5 class="sub-title">Founder</h5>
-                            <!-- <div class="social-links about-social">
-                            <a class="social-link facebook" href="#"><i class="ion-social-facebook"></i></a>
-                            <a class="social-link twitter" href="#"><i class="ion-social-twitter"></i></a>
-                            <a class="social-link youtube" href="#"><i class="ion-social-youtube"></i></a>
-                            <a class="social-link instagram" href="#"><i class="ion-social-instagram"></i></a>
-                            <a class="social-link instagram" href="#"><i class="ion-social-rss"></i></a>
-                        </div> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="service">
-                        <div class="single-thumb mb-4">
-                            <img height="200" width="250" src="{{asset('/images/about/IMG_9465.JPG')}}" alt="single-thumb-naile">
-                        </div>
-                    <div class="single-service">
-                        <h3 class="service-title text-capitalize">Miss Lesedi Mildred </h3>
-                        <h5 class="sub-title">Brand Strategist</h5>
-                        <!-- <div class="social-links about-social">
-                            <a class="social-link facebook" href="#"><i class="ion-social-facebook"></i></a>
-                            <a class="social-link twitter" href="#"><i class="ion-social-twitter"></i></a>
-                            <a class="social-link youtube" href="#"><i class="ion-social-youtube"></i></a>
-                            <a class="social-link instagram" href="#"><i class="ion-social-instagram"></i></a>
-                            <a class="social-link instagram" href="#"><i class="ion-social-rss"></i></a>
-                        </div> -->
                     </div>
                 </div>
             </div>

@@ -58,6 +58,9 @@
                          sub menu end 
                     </li> -->
                     <li>
+                        <a class="text-brown" href="/about">About</a>
+                    </li>
+                    <li>
                         <a class="text-brown" href="/contact-us">Contact</a>
                     </li>
                 </ul>
@@ -127,9 +130,9 @@
                                 <!-- mega menu start -->
                                @include('layouts.menu')
                                 </li>
-                                <!-- <li class="main-menu-item  position-static"><a href="/about" class="hover">About</a>
+                                <li class="main-menu-item  position-static"><a href="/about" class="hover">About</a>
                                 </li>
-                                <li class="main-menu-item  position-static"><a href="#" class="hover">Pages</a>
+                               <!-- <li class="main-menu-item  position-static"><a href="#" class="hover">Pages</a>
                                 </li> -->
                                 <li class="main-menu-item  position-static"><a href="/contact-us" class="hover">Contact</a></li>
                             </ul>

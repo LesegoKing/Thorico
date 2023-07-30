@@ -1,15 +1,20 @@
-<ul >
+<li class="main-menu-item position-static"><a href="#" class="main-menu-link">Shop</a>
+    <!-- mega menu start -->
+    <ul class="mega-menu">
     @foreach($categories as $category => $subcategories)
-        <li>
-            {{ $category }}
+        <li class="mega-menu-item">
+        {{ $category }}
             <!-- sub-mega-menu start -->
-            <ul>
-                @foreach($subcategories as $subID => $subcategory)
-                <li>
-                    <a href="/{{ $subID }}/products">{{ $subcategory }}</a>
+            <ul class="sub-mega-menu">
+            @foreach($subcategories as $subID => $subcategory)
+                <li class="sub-mega-menu-item"><a class="sub-mega-menu-link" href="/{{ $subID }}/products">{{ $subcategory }}
+                    </a>
                 </li>
+            @endforeach
                 @endforeach
             </ul>
+            <!-- sub-mega-menu end -->
         </li>
-    @endforeach
-</ul>
+    </ul>
+    <!-- mega menu end -->
+</li>
