@@ -102,7 +102,7 @@ a {
 
 p:last-child {
   margin-bottom: 0;
-  
+
 }
 
 
@@ -309,15 +309,15 @@ img {
   opacity: 1;
   visibility: visible;
   display: inline-block;
-  
+
 }
 .swiper-arrow.bestseller-arrow .swiper-button-next:hover,
 .swiper-arrow.bestseller-arrow .swiper-button-prev:hover{
   background-color: black;
   border-color: #b98035;
-  color: white;   
+  color: white;
 }
- 
+
 
 .swiper-arrow.bestseller-arrow .swiper-button-next,
 .swiper-arrow.bestseller-arrow .swiper-button-prev {
@@ -547,7 +547,7 @@ svg {
   width: 140px;
   height: 40px;
   padding-top: 5px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .main-menu-item {
@@ -982,9 +982,9 @@ svg {
   background-color: transparent;
 }
 
-.offcanvas-menu ul ul {
+/*.offcanvas-menu ul ul {
   display: none;
-}
+}*/
 
 .offcanvas-menu > ul > li > ul li {
   border-bottom: 0px;
@@ -1127,7 +1127,7 @@ svg {
   }
 }
 
-/******************************** 
+/********************************
 # Offcanvas Menu Style End
 ********************************/
 .header-bottom.active-sticky {

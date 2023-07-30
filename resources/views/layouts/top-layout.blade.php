@@ -34,28 +34,28 @@
             <!-- offcanvas-mobile-menu start -->
             <nav id="offcanvasNav" class="offcanvas-menu">
                 <ul>
-                    <li class="main-menu-item">
+                    <li>
                         <a class="" href="/" >Home</a>
                     </li>
-                    <li>
-                        <a href="#">Shop</a>
-                        <!-- shop mega menu -->
-                        @include('layouts.mobile')
-                        <!-- shop mega menu end -->
-                    </li>
+                    <!-- shop mega menu -->
+                    @include('layouts.mobile')
+                    <!-- shop mega menu end -->
+
+
+
                     <!-- <li>
                         <a href="/about">About</a>
                     </li>
                     <li><a href="#">Pages</a>
-                        sub menu start 
+                        sub menu start
                         <ul>
                             <li><a href="#">How It All Started</a></li>
-                            <li><a href="/staff">Staff</a></li>                                                                           
+                            <li><a href="/staff">Staff</a></li>
                             <li><a href="/faq">Frequently Questions</a></li>
                             <li><a href="/privacy-policy">Privacy Policy</a></li>
                             <li><a href="/404">Error 404</a></li>
                         </ul>
-                         sub menu end 
+                         sub menu end
                     </li> -->
                     <li>
                         <a class="text-brown" href="/about">About</a>
@@ -66,7 +66,7 @@
                 </ul>
             </nav>
         </div>
-    </div>   
+    </div>
     <!-- offcanvas-mobile-menu end -->
 
     <!-- offcanvas menu end -->
@@ -80,7 +80,7 @@
                 <div class="row align-items-center">
                     <div class="col">
                         <div class="logo">
-                            <a href="index.html"> 
+                            <a href="index.html">
                                 <img  height="200%" width="160%" src="{{ asset('/images/logo/Td-removebg-preview-removebg-preview.png') }}" alt="image_not_found">
                             </a>
                         </div>
@@ -106,11 +106,12 @@
                             </a>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
         <!-- mobile menu end -->
+
         <div class="header-bottom2 header-middle-default active-sticky bg-black d-none d-lg-block">
             <div class="container bg-brown">
                 <div class="row align-items-center">
@@ -166,13 +167,6 @@
     <script src="{{ asset('/js/plugins/jquery-ui.min.js') }}"></script>
     <script src="{{ asset('/js/plugins/scroll-up.js') }}"></script>
     <script src="{{ asset('/js/main.js') }}"></script>
-    
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-    @yield('javascript')
 
 </body>
 </html>

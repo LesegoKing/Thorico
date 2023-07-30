@@ -11,6 +11,7 @@ class WebsiteController extends Controller
     public function index()
     {
         $categories = (new Category())->subcategries();
+
         return view('index',['categories' => $categories]);
     }
 

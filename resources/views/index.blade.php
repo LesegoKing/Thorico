@@ -244,7 +244,7 @@
 <section class="banner-section section-padding-bottom section-padding-top">
     <div class="container">
         <div class="row mb-n4">
-            <div class="col-lg-8 mb-4">
+            <div class="col-lg-6 mb-4">
                 <div class="banner">
                     <!-- thumb-nail start -->
                     <a href="#" class="thumb-nail">
@@ -261,7 +261,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-6 mb-4">
                 <div class="banner">
                     <!-- thumb-nail start -->
                     <a href="#" class="thumb-nail">
@@ -281,7 +281,7 @@
 </section>
 <!-- Banner section End -->
 <!-- categries section start -->
-<div class="categries-section section-padding-top section-padding-bottom bg-white">
+<div class="categries-section bg-white">
     <div class="container">
         <div class="row">
             <div class="col-12">

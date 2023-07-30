@@ -13,7 +13,3 @@
         </li>
     @endforeach
 </ul>
-
-
-
-
