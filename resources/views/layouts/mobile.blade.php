@@ -4,7 +4,7 @@
     <ul>
     @foreach($categories as $category => $subcategories)
         <li >
-        {{ $category }}
+            {{ $category }}
             <!-- sub-mega-menu start -->
             <ul >
             @foreach($subcategories as $subID => $subcategory)
