@@ -48,8 +48,8 @@
                     <li class="footer-menu-items"><a class="footer-menu-link" href="/">Home</a></li>
                         <!-- <li class="footer-menu-items"><a class="footer-menu-link" href="/shop">Shop</a></li> -->
                         <li class="footer-menu-items"><a class="footer-menu-link" href="/contact-us">Contact us</a></li>
-                        <!-- <li class="footer-menu-items"><a class="footer-menu-link" href="/about">About Us</a></li>
-                        <li class="footer-menu-items"><a class="footer-menu-link" href="/privacy-policy">Privacy Policy</a></li>
+                         <li class="footer-menu-items"><a class="footer-menu-link" href="/about">About Us</a></li>
+                        <!--<li class="footer-menu-items"><a class="footer-menu-link" href="/privacy-policy">Privacy Policy</a></li>
                         <li class="footer-menu-items"><a class="footer-menu-link" href="/faq">Frequently Questions</a></li> -->
                     </ul>
                 </div>
@@ -94,7 +94,7 @@
                             
                             <div class="col-12 col-md-6 mb-4">
                                 <div class="payment text-center">
-                                    <h5><small>© 2023 Thorico Designs (Pty) Ltd | All Rights Reserved.</small></h5>
+                                    <h5><small>© 2023 King Dev. (Pty) Ltd | All Rights Reserved.</small></h5>
                                 </div>
                             </div>
                         </div>
