@@ -70,7 +70,7 @@
             </div>
         </div>
     </section>
-<section class="service-section section-padding-bottom section-padding-top">
+<section class="service-section section-padding-bottom">
     <div class="container text-center">
         <div class="row">
             <div class="col-12">

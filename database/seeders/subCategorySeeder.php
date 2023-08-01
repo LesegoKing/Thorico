@@ -99,7 +99,7 @@ class subCategorySeeder extends Seeder
             'name' => 'Traveling Bags',
             'friendly_name' => 'traveling-bags',
             'active' => 1,
-            'img_path' => 'travel bag.jpg',
+            'img_path' => 'travel-bag.jpg',
         ]);
 
     }
