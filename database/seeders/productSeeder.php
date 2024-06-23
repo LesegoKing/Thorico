@@ -22,39 +22,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'King bed',
             'price' => 0.00,
-            'img_path' => 'bed 2.png',
-        ]);
-
-        DB::table('products')->insert([
-            'sub_category_id' => 1, //bedroom
-            'name' => 'Contact For More Details',
-            'desc' => 'King bed',
-            'price' => 0.00,
-            'img_path' => 'bed 4.jpg',
-        ]);
-
-        DB::table('products')->insert([
-            'sub_category_id' => 1, //bedroom
-            'name' => 'Contact For More Details',
-            'desc' => 'King bed',
-            'price' => 0.00,
-            'img_path' => 'bed 5.jpg',
-        ]);
-
-        DB::table('products')->insert([
-            'sub_category_id' => 1, //bedroom
-            'name' => 'Contact For More Details',
-            'desc' => 'King bed',
-            'price' => 0.00,
-            'img_path' => 'bed 3.jpg',
-        ]);
-
-        DB::table('products')->insert([
-            'sub_category_id' => 1, //bedroom
-            'name' => 'Contact For More Details',
-            'desc' => 'King bed',
-            'price' => 0.00,
-            'img_path' => 'bed 1.png',
+            'img_path' => 'bed.png',
         ]);
 
         //Sofas
@@ -64,7 +32,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Sofa two',
             'price' => 0.00,
-            'img_path' => 'couch 5.jpg',
+            'img_path' => 'sofa.png',
         ]);
 
         DB::table('products')->insert([
@@ -72,7 +40,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Sofa two',
             'price' => 0.00,
-            'img_path' => 'couch 4.jpg',
+            'img_path' => 'sofa3.png',
         ]);
 
         DB::table('products')->insert([
@@ -80,7 +48,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Sofa two',
             'price' => 0.00,
-            'img_path' => 'sofa 5.jpg',
+            'img_path' => 'sofa1.png',
         ]);
 
         DB::table('products')->insert([
@@ -88,40 +56,9 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Sofa two',
             'price' => 0.00,
-            'img_path' => 'sofa 7.jpg',
+            'img_path' => 'sofa2.png',
         ]);
 
-        DB::table('products')->insert([
-            'sub_category_id' => 2, //sofas
-            'name' => 'Contact For More Details',
-            'desc' => 'Sofa two',
-            'price' => 0.00,
-            'img_path' => 'sofa 8.jpg',
-        ]);
-
-        DB::table('products')->insert([
-            'sub_category_id' => 2, //sofas
-            'name' => 'Contact For More Details',
-            'desc' => 'Sofa two',
-            'price' => 0.00,
-            'img_path' => 'sofa 1.jpg',
-        ]);
-
-        DB::table('products')->insert([
-            'sub_category_id' => 2, //sofas
-            'name' => 'Contact For More Details',
-            'desc' => 'Sofa two',
-            'price' => 0.00,
-            'img_path' => 'sofa 4.jpg',
-        ]);
-
-        DB::table('products')->insert([
-            'sub_category_id' => 2, //sofas
-            'name' => 'Contact For More Details',
-            'desc' => 'Sofa two',
-            'price' => 0.00,
-            'img_path' => 'sofa 3.jpg',
-        ]);
 
         //Tables
 
@@ -138,7 +75,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'table 2.png',
+            'img_path' => 'table.png',
         ]);
 
         DB::table('products')->insert([
@@ -146,7 +83,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'table.jpg',
+            'img_path' => 'table1.png',
         ]);
 
         DB::table('products')->insert([
@@ -154,7 +91,15 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'table 5.jpg',
+            'img_path' => 'table2.png',
+        ]);
+
+        DB::table('products')->insert([
+            'sub_category_id' => 3, //tables
+            'name' => 'Contact For More Details',
+            'desc' => 'Table two',
+            'price' => 0.00,
+            'img_path' => 'table3.jpg',
         ]);
 
         //Chairs
@@ -284,7 +229,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'laptopbag.png',
+            'img_path' => 'laptop1.jpg',
         ]);
 
         DB::table('products')->insert([
@@ -300,7 +245,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'lb2.jpg',
+            'img_path' => 'laptop.jpg',
         ]);
 
         //Side-bags
@@ -310,7 +255,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'sidebag.png',
+            'img_path' => 'side2.jpg',
         ]);
 
         DB::table('products')->insert([
@@ -318,7 +263,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'sb1.jpg',
+            'img_path' => 'side3.jpg',
         ]);
 
         DB::table('products')->insert([
@@ -326,8 +271,17 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'sb2.jpg',
+            'img_path' => 'side4.jpg',
         ]);
+
+        DB::table('products')->insert([
+            'sub_category_id' => 9, //side-bags
+            'name' => 'Contact For More Details',
+            'desc' => 'Table two',
+            'price' => 0.00,
+            'img_path' => 'side5.jpg',
+        ]);
+
 
         //Purses & Wallets
 
@@ -336,7 +290,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'p.jpg',
+            'img_path' => 'side1.jpg',
         ]);
 
         DB::table('products')->insert([
@@ -344,7 +298,7 @@ class productSeeder extends Seeder
             'name' => 'Contact For More Details',
             'desc' => 'Table two',
             'price' => 0.00,
-            'img_path' => 'p2.jpg',
+            'img_path' => 'side6.jpg',
         ]);
 
         //Travel Bags

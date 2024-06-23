@@ -3,7 +3,7 @@
 
 <!-- main content start -->
 <!-- bread crumb section start -->
-<nav class="breadcrumb-section breadcrumb-bg1" style="padding: 105px 0; background-repeat: no-repeat; background-position: center top; background-size: cover; background-image: url({{ asset('/images/bread-crumb/') . "/" . $categoryDetails->img_path }}); ">
+<nav class="breadcrumb-section breadcrumb-bg1" style="padding: 105px 0; background-repeat: no-repeat; background-position: center top; background-size: cover; background-image: url({{ asset('../images/bread-crumb/') . "/" . $categoryDetails->img_path }}); ">
     <div class="container">
         <div class="row">
             <div class="col-12">

@@ -30,8 +30,8 @@
                         <div class="address-list">
                             <h4 class="title"><span class="ion-ios-home"></span>Address</h4>
                             <p>
-                            Olympus Dr, Pretoria, 0081<br>
-                            <b>Workshop Visits By Appointment</b>
+                            No 652 Eland Street, Mooikloof<br>
+                            <b>Showroom By Appointment</b>
                             </p>
                         </div>
                         <!-- address-list end -->
@@ -50,7 +50,7 @@
                             <h4 class="title"><span class=" ion-ios-telephone"></span> Phone</h4>
                             <ul>
                                 <li>
-                                <a class="phone-number" href="tel:071 939 5407">071 939 5407</a>
+                                <a class="phone-number" href="tel:012 980 5012">012-980-5012</a>
                                 </li>
                             </ul>
                         </div>
@@ -115,7 +115,7 @@
     </section>
 
     <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.1650378060694!2d28.331718899999995!3d-25.798128799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955ddbbd98372f%3A0x7efc9ff6fcaeee5c!2sOlympus%20Dr%2C%20Pretoria%2C%200081!5e0!3m2!1sen!2sza!4v1684492263586!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.2427341058797!2d28.32491757383499!3d-25.861487250101078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955d3ebe5b3bfd%3A0x1128f0669d7a7e01!2s652%20Eland%20St%2C%20Pretoria%2C%200181!5e0!3m2!1sen!2sza!4v1719038569080!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <!-- main content end -->
 

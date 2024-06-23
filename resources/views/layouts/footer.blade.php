@@ -36,7 +36,7 @@
                     <p>
                         <a href="mailto:support@demothemes.com">sales@thorico.co.za</a>
                         <br>
-                        <a href="tel:071 939 5407">071 939 5407</a>
+                        <a href="tel:012 980 5012">012-980-5012</a>
 
                     </p>
                 </div>

@@ -265,7 +265,7 @@
                 <div class="banner">
                     <!-- thumb-nail start -->
                     <a href="#" class="thumb-nail">
-                        <img src="{{asset('/images/banner/couch 1.png')}}" alt="image_not_found">
+                        <img src="{{asset('/images/banner/co.jpg')}}" alt="image_not_found">
                     </a>
                     <!-- thumb-nail end -->
                     <div class="banner-content banner-position-bottom-left">
