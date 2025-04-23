@@ -34,7 +34,7 @@
                         <p class="mb-4">
                         <ul>  
                             <li>
-                                1. Thorico Designs, Thorico designs is the umbrella brand that focuses mainly on the design and
+                                1. Thorico Designs is the umbrella brand that focuses mainly on the design and
                                 manufacturing of furniture, leather bags and accessories. Expanding to interior designing and
                                 renovations, with the aim to cater to all various outlets that will need the touch of Thorico Designs
                                 expertise in designing.
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <!--<div class="col-4">
                     <div class="service">
                         <div class="single-thumb mb-4">
                             <img  src="{{asset('/images/about/IMG_9465.JPG')}}" alt="single-thumb-naile">
@@ -107,15 +107,15 @@
                     <div class="single-service">
                         <h3 class="service-title text-capitalize">Miss Lesedi Mildred </h3>
                         <h5 class="sub-title">Brand Strategist</h5>
-                        <!-- <div class="social-links about-social">
+                        <div class="social-links about-social">
                             <a class="social-link facebook" href="#"><i class="ion-social-facebook"></i></a>
                             <a class="social-link twitter" href="#"><i class="ion-social-twitter"></i></a>
                             <a class="social-link youtube" href="#"><i class="ion-social-youtube"></i></a>
                             <a class="social-link instagram" href="#"><i class="ion-social-instagram"></i></a>
                             <a class="social-link instagram" href="#"><i class="ion-social-rss"></i></a>
-                        </div> -->
+                        </div> 
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>

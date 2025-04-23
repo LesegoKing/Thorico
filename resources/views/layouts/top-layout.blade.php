@@ -5,11 +5,18 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Thorico Designs</title>
+<meta name="description" content="Designing & Manufacturing Of Furniture, Bags & Accessories">
+    <meta name="keywords" content="Thorico Designs">
+    <meta name="msapplication-TileImage" content="{{asset('/images/Logo/Frame 4.png') }}">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="{{asset('/images/Thorico Designs.jpeg') }}" />
+<link rel="shortcut icon" type="image/x-icon" href="{{asset('/images/Logo/Frame 4.png') }}" />
 <link rel="stylesheet" href="{{asset('/css/vendor/bootstrap.min.css') }}" />
 <link rel="stylesheet" href="{{asset('/css/vendor/ionicons.css') }}" />
 <link rel="stylesheet" href="{{asset('/css/plugins/animate.min.css') }}" />
@@ -150,7 +157,7 @@
 
 
 
-
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
         <!-- Scripts -->
     <!-- Global Vendor, plugins JS -->
 
@@ -167,6 +174,26 @@
     <script src="{{ asset('/js/plugins/jquery-ui.min.js') }}"></script>
     <script src="{{ asset('/js/plugins/scroll-up.js') }}"></script>
     <script src="{{ asset('/js/main.js') }}"></script>
+    <script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+
+    // Get the button
+    var btn = document.getElementById("myBtn");
+
+    // Pause and play the video, and change the button text
+    function myFunction() {
+    if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+    } else {
+        video.pause();
+        btn.innerHTML = "Play";
+    }
+    }
+    </script>
+
+
 
 </body>
 </html>

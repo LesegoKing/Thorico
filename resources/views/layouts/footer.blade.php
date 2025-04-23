@@ -30,13 +30,15 @@
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="footer-widget">
                     <a class="footer-brand" href="index.html">
-                    <img width="115" height="120" src="{{ asset('/images/logo/Thorico Designs.jpeg') }}" alt="image_not_found">
+                    <img width="100" height="130" src="{{ asset('/images/logo/Frame 4.png') }}" alt="image_not_found">
                     </a>
                     <span class="need-help">Need Help?</span>
                     <p>
-                        <a href="mailto:support@demothemes.com">sales@thorico.co.za</a>
+                        <a href="mailto:sales@thoricodesigns.co.za">sales@thoricodesigns.co.za</a>
                         <br>
                         <a href="tel:012 980 5012">012-980-5012</a>
+                        <br>
+                        <a href="tel:071 939 5407">071 939 5407</a>
 
                     </p>
                 </div>
@@ -65,7 +67,7 @@
                             Wed: 09:00 - 18:00<br>
                             Thu: 09:00 - 18:00<br>
                             Fri: 09:00 - 18:00<br>
-                            Sat: 09:00 - 18:00
+                            Sat: 09:00 - 13:00
                         </p>
                     </ul>
                 </div>
@@ -94,7 +96,7 @@
                             
                             <div class="col-12 col-md-6 mb-4">
                                 <div class="payment text-center">
-                                    <h5><small>© 2023 King Dev. (Pty) Ltd | All Rights Reserved.</small></h5>
+                                    <h5><small>© 2023 Thorico Designs Pty Ltd | All Rights Reserved. | Designed By King Dev. Pty Ltd</small></h5>
                                 </div>
                             </div>
                         </div>

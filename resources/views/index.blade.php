@@ -65,181 +65,196 @@
         </div>
     </div>
 </section>
-    <!-- Hero Slider End -->
-    <!-- bestseller-product-section start -->
-<div class="bestseller-product-section section-padding-top">
-    <div class="container">
-        <div class="row mb-n5 bestseller-carousel swiper-arrow bestseller-arrow">
-            <div class="col-12 col-lg-4 col-xl-3 mb-5 position-relative">
-                <section class="section-title bestseller text-start">
-                    <h3 class="title">Our Products
-                    </h3>
-                    <p class="text-brown">Have A Look.</p>
-                </section>
-                <!-- If we need navigation buttons -->
-                <div class="featured-product swiper-button-prev"></div>
-                <div class="featured-product swiper-button-next"></div>
+
+<!-- large banner section start -->
+<section class="large-banner-section section-padding-top section-padding-bottom">
+        <div class="container">
+            <div class="row mb-n4">
+                <div class="col-lg-4 mb-4">
+                    <div class="large-banner-content text-center text-lg-end">
+                        <h3 class="large-banner-sub-title">We Got The</h3>
+                        <h3 class="large-banner-sub-title">Best</h3>
+                        <h4 class="large-banner-title" style="color:#b98035">Chairs & Bed Designs</h4>
+                        
+                        <a href="/contact-us" class="btn btn-outline-darks justify-center">Enquire Now</a>
+                    </div>
+                    <!-- large-banner-content end -->
+                    <a href="#" class="thumb-nail">
+                        <img src="{{asset('/images/banner/chair2.jpg')}}" alt="image_not_found"  height="50%" width="40%">
+                    </a>
+                    <!-- thumb-nail end-->
+                </div>
+                <div class="col-lg-8 mb-4">
+                    <div class="large-banner-wrap position-relative">
+                        <a href="#" class="large-thumb-nail">
+                            <img src="{{asset('/images/banner/bed.jpg')}}" alt="image_not_found" height="70%" width="70%">
+                        </a>
+                        <!-- thumb-nail end-->
+                       
+                        <!-- thumb-nail end-->
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-lg-8 col-xl-9 mb-5">
-                <!-- Slider main container -->
-                <div class="swiper-container">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="product-list">
-                                <div class="product-card">
-                                    <a href="#" class="product-thumb">
-                                        <img width="700" height="320" src="{{asset('/images/products/bag.jpg')}}" alt="image_not_found">
-                                    </a>
-                                    <!-- thumb end -->
-                                    <!--<div class="product-content">
-                                        <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
-                                        <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
-                                        </div>
-                                        <ul class="actions actions-verticale">
-                                        <li class="action whish-list">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
-                                            </li>
-                                            <li class="action quick-view">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal"><i class="ion-ios-eye-outline"></i></button>
-                                            </li>
-                                            <li class="action compare">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-compare"><i class="ion-android-sync"></i></button>
-                                            </li>
-                                        </ul>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <!-- product list end -->
-                        </div>
-                        <!-- swiper-slide end -->
-                        <div class="swiper-slide">
-                            <div class="product-list">
-                                <div class="product-card">
-                                    <a href="#" class="product-thumb">
-                                        <img width="700" height="320" src="{{asset('/images/products/couch2.jpg')}}" alt="image_not_found">
-                                    </a>
-                                    <!-- thumb end -->
-                                    <!--<div class="product-content">
-                                        <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
-                                        <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
-                                        </div>
-                                        <ul class="actions actions-verticale">
-                                        <li class="action whish-list">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
-                                            </li>
-                                            <li class="action quick-view">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal"><i class="ion-ios-eye-outline"></i></button>
-                                            </li>
-                                            <li class="action compare">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-compare"><i class="ion-android-sync"></i></button>
-                                            </li>
-                                        </ul>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <!-- product list end -->
-                        </div>
-                        <!-- swiper-slide end -->
-                        <div class="swiper-slide">
-                            <div class="product-list">
-                                <div class="product-card">
-                                    <a href="#" class="product-thumb">
-                                        <img width="700" height="320" src="{{asset('/images/products/bed1.jpg')}}" alt="image_not_found">
-                                    </a>
-                                    <!-- thumb end -->
-                                    <!--<div class="product-content">
-                                        <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
-                                        <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
-                                        </div>
+        </div>
+    </section>
+    <!-- large banner section end -->
 
-                                        <ul class="actions actions-verticale">
-                                        <li class="action whish-list">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
-                                            </li>
-                                            <li class="action quick-view">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal"><i class="ion-ios-eye-outline"></i></button>
-                                            </li>
-                                            <li class="action compare">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-compare"><i class="ion-android-sync"></i></button>
-                                            </li>
-                                        </ul>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <!-- product list end -->
-                        </div>
-                        <!-- swiper-slide end -->
-                        <div class="swiper-slide">
-                            <div class="product-list">
-                                <div class="product-card">
-                                    <a href="#" class="product-thumb">
-                                        <img width="700" height="320" src="{{asset('/images/products/table1.jpg')}}" alt="image_not_found">
-                                    </a>
-                                    <!-- thumb end -->
-                                    <!--<div class="product-content">
-                                        <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
-                                        <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
-                                        </div>
-
-                                        <ul class="actions actions-verticale">
-                                        <li class="action whish-list">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
-                                            </li>
-                                            <li class="action quick-view">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal"><i class="ion-ios-eye-outline"></i></button>
-                                            </li>
-                                            <li class="action compare">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-compare"><i class="ion-android-sync"></i></button>
-                                            </li>
-                                        </ul>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <!-- product list end -->
-                        </div>
-                        <!-- swiper-slide end -->
-                        <div class="swiper-slide">
-                            <div class="product-list">
-                                <div class="product-card">
-                                    <a href="#" class="product-thumb">
-
-                                        <img width="700" height="320" src="{{asset('/images/products/couch3.jpg')}}" alt="image_not_found">
-                                    </a>
+<!-- bestseller-product-section start -->
+<div class="bestseller-product-section section-padding-top">
+        <div class="container">
+            <div class="row mb-n5 bestseller-carousel swiper-arrow bestseller-arrow">
+                <div class="col-12 col-lg-4 col-xl-3 mb-5 position-relative">
+                    <section class="section-title bestseller text-start">
+                        <h3 class="title">Our Latest Products
+                           
+                        </h3>
+                        <p>Have a look through our personally designed products.</p>
+                    </section>
+                    <!-- If we need navigation buttons -->
+                    <div class="featured-product swiper-button-prev"></div>
+                    <div class="featured-product swiper-button-next"></div>
+                </div>
+                <div class="col-12 col-lg-8 col-xl-9 mb-5">
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product-list">
+                                    <div class="product-card">
+                                        <a href="#" class="product-thumb">
+                                    
+                                            <img src="{{asset('/images/products/table3.jpg')}}" alt="image_not_found" height="25%" width="25%">
+                                        </a>
                                         <!-- thumb end -->
-                                    <!--<div class="product-content">
-                                        <h4><a href="single-product.html" class="product-title">3 Tier Wood With Metal Shelf</a></h4>
-                                        <div class="product-group">
-                                            <h5 class="product-price"><del class="old-price">R85.00</del> <span class="new-price">R60.00</span></h5>
-                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <!-- product list end -->
 
-                                        <ul class="actions actions-verticale">
-                                        <li class="action whish-list">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-wishlist"><i class="ion-ios-heart-outline"></i></button>
-                                            </li>
-                                            <li class="action quick-view">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal"><i class="ion-ios-eye-outline"></i></button>
-                                            </li>
-                                            <li class="action compare">
-                                                <button data-bs-toggle="modal" data-bs-target="#product-modal-compare"><i class="ion-android-sync"></i></button>
-                                            </li>
-                                        </ul>
-                                    </div> -->
                             </div>
-                            <!-- product list end -->
+                            <!-- swiper-slide end -->
+                            <div class="swiper-slide">
+                                <div class="product-list">
+                                    <div class="product-card">
+                                        <a href="#" class="product-thumb">
+                                            
+                                            <img src="{{asset('/images/products/couch.jpg')}}" alt="image_not_found">
+                                        </a>
+                                       
+                                        
+                                    </div>
+                                </div>
+                                <!-- product list end -->
+
+                            </div>
+                            <!-- swiper-slide end -->
+                            <div class="swiper-slide">
+                                <div class="product-list">
+                                    <div class="product-card">
+                                        <a href="#" class="product-thumb">
+                                            
+                                            <img src="{{asset('/images/products/Ftable.jpg')}}" alt="image_not_found">
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                                <!-- product list end -->
+
+                            </div>
+                            <!-- swiper-slide end -->
+                            <div class="swiper-slide">
+                                <div class="product-list">
+                                    <div class="product-card">
+                                        <a href="#" class="product-thumb">
+                                            
+                                            <img src="{{asset('/images/products/Dchairs.jpg')}}" alt="image_not_found">
+                                        </a>
+                                        <!-- thumb end -->
+                                        
+                                    </div>
+                                </div>
+                                <!-- product list end -->
+
+                            </div>
+                            <!-- swiper-slide end -->
+                            <div class="swiper-slide">
+                                <div class="product-list">
+                                    <div class="product-card">
+                                        <a href="#" class="product-thumb">
+                                            
+                                            <img src="{{asset('/images/products/drawer.jpg')}}" alt="image_not_found">
+                                        </a>
+                                        <!-- actions  -->
+                                       
+                                    </div>
+                                </div>
+                                <!-- product list end -->
+
+                            </div>
+                            <!-- swiper-slide end -->
                         </div>
-                        <!-- swiper-slide end -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!-- bestseller-product-section end -->
+    <!-- bestseller-product-section end -->
+
+ 
+
+    <!-- Hero Slider End -->
+
+    <section class="banner-section section-padding-bottom section-padding-top">
+    <div class="container">
+        <div class="row justify-content-md-left">
+            <video autoplay muted loop id="myVideo" height="600" width="1400">
+            <source src="{{asset('/images/slider/TDV.mp4')}}" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+
+ <!-- Banner section Start -->
+ <section class="banner-section section-padding-bottom section-padding-top">
+        <div class="container">
+            <div class="row mb-n4">
+                <div class="col-lg-8 mb-4">
+                    <div class="banner">
+                        <!-- thumb-nail start -->
+                        <a href="#" class="thumb-nail">
+                            <img src="{{asset('/images/products/bagff.jpg')}}" alt="image_not_found">
+                        </a>
+                        <!-- thumb-nail end -->
+                        <div class="banner-content banner-position-top-left">
+                            <span class="banner-sub-title">Laptop Bag</span>
+                            <h3 class="banner-title">For Sale</h3>
+                            <a href="/contact-us" class="btn animated btn-outline-dark">Enquire Now</a>
+                        </div>
+                        <!-- banner-content end -->
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="banner">
+                        <!-- thumb-nail start -->
+                        <a href="#" class="thumb-nail">
+                            <img src="{{asset('/images/products/bag.jpg')}}" alt="image_not_found">
+                        </a>
+                        <!-- thumb-nail end -->
+                        <div class="banner-content banner-position-bottom-left">
+                            <span class="banner-sub-title">Side Bag</span>
+                            <h3 class="banner-title">For Sale</h3>
+                            <a href="/contact-us" class="btn animated btn-outline-dark">Enquire Now</a>
+                        </div>
+                        <!-- banner-content end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section End -->
 <!-- Banner section Start -->
 <section class="banner-section section-padding-bottom section-padding-top">
     <div class="container">
@@ -248,13 +263,12 @@
                 <div class="banner">
                     <!-- thumb-nail start -->
                     <a href="#" class="thumb-nail">
-                        <img src="{{asset('/images/banner/handbag1.png')}}" alt="image_not_found">
+                        <img src="{{asset('/images/banner/bed 2.png')}}" alt="image_not_found">
                     </a>
                     <!-- thumb-nail end -->
                     <div class="banner-content banner-position-top-left">
-                        <span class="banner-sub-title text-black">HandBags</span>
-                        <br>
-
+                        <span class="banner-sub-title text-black">Beds</span>
+                        <h3 class="banner-title">For Sale</h3>
                         <a href="/contact-us" class="btn animated btn-outline-dark">Enquire Now</a>
                     </div>
                     <!-- banner-content end -->
@@ -265,7 +279,7 @@
                 <div class="banner">
                     <!-- thumb-nail start -->
                     <a href="#" class="thumb-nail">
-                        <img src="{{asset('/images/banner/co.jpg')}}" alt="image_not_found">
+                        <img src="{{asset('/images/banner/Cover.png')}}" alt="image_not_found">
                     </a>
                     <!-- thumb-nail end -->
                     <div class="banner-content banner-position-bottom-left">
@@ -305,7 +319,7 @@
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="categories">
                     <a href="#" class="thumb-nail">
-                        <img height="190" width="450" src="{{asset('/images/categoris/tb1.jpg')}}" alt="image_not_found">
+                        <img height="190" width="450" src="{{asset('/images/categoris/tb1.png')}}" alt="image_not_found">
                     </a>
                     <h3 class="categories-title text-brown">
                         Tables
@@ -316,7 +330,7 @@
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="categories">
                     <a href="#" class="thumb-nail">
-                        <img height="190" width="450" src="{{asset('/images/categoris/tamara-bellis-HY1fq4ZtLTE-unsplash.jpg')}}" alt="image_not_found">
+                        <img height="190" width="450" src="{{asset('/images/categoris/sid.jpg')}}" alt="image_not_found">
                     </a>
                     <h3 class="categories-title text-brown">
                         Side Bags
@@ -338,7 +352,7 @@
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="categories">
                     <a href="#" class="thumb-nail">
-                        <img height="190" width="450" src="{{asset('/images/categoris/hayffield-l-iIuoAdkOnlk-unsplash.jpg')}}" alt="image_not_found">
+                        <img height="190" width="450" src="{{asset('/images/categoris/sofa3.png')}}" alt="image_not_found">
                     </a>
                     <h3 class="categories-title text-brown">
                         Couches

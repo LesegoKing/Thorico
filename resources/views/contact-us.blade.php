@@ -1,7 +1,7 @@
 @extends('layouts.top-layout')
 @section('content')
 
-<nav class="breadcrumb-section" style="background-image: url({{ asset('../images/bread-crumb/contact-us.jpg')}}); background-repeat: no-repeat; background-position: center top; background-size: cover;">
+    <nav class="breadcrumb-section" style="background-image: url({{ asset('../images/bread-crumb/contact-us.jpg')}}); background-repeat: no-repeat; background-position: center top; background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -30,7 +30,7 @@
                         <div class="address-list">
                             <h4 class="title"><span class="ion-ios-home"></span>Address</h4>
                             <p>
-                            No 652 Eland Street, Mooikloof<br>
+                            No 652 Eland Street<br>Execu Office Space <br>Mooikloof PTA East<br>
                             <b>Showroom By Appointment</b>
                             </p>
                         </div>
@@ -40,7 +40,7 @@
                             <h4 class="title"><span class="ion-email"></span>Email</h4>
                             <ul>
                                 <li>
-                                    <a class="mailto" href="sales@thorico.co.za">sales@thorico.co.za</a>
+                                    <a class="mailto" href="sales@thoricodesigns.co.za">sales@thoricodesigns.co.za</a>
                                 </li>
                             </ul>
                         </div>
@@ -51,6 +51,9 @@
                             <ul>
                                 <li>
                                 <a class="phone-number" href="tel:012 980 5012">012-980-5012</a>
+                                </li>
+                                <li>
+                                <a class="phone-number" href="tel:071 939 5407">071 939 5407</a>
                                 </li>
                             </ul>
                         </div>
@@ -65,7 +68,7 @@
                                 Wed: 09:00 - 18:00<br>
                                 Thu: 09:00 - 18:00<br>
                                 Fri: 09:00 - 18:00<br>
-                                Sat: 09:00 - 18:00
+                                Sat: 09:00 - 13:00
                             </li>
                         </ul>
                         </div>
